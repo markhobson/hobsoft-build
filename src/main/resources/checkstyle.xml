@@ -18,7 +18,7 @@
 	<!-- Headers -->
 	
 	<module name="Header">
-		<property name="headerFile" value="header.txt"/>
+		<property name="headerFile" value="${checkstyle.header.file}"/>
 	</module>
 	
 	<!-- <module name="RegexpHeader"/> -->
