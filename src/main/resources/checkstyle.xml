@@ -222,8 +222,8 @@
 		<module name="UnusedImports"/>
 		
 		<module name="ImportOrder">
-			<property name="option" value="top"/>
-			<property name="groups" value="java, javax"/>
+			<property name="option" value="bottom"/>
+			<property name="groups" value="java, javax, org, com"/>
 			<property name="separated" value="true"/>
 		</module>
 		
