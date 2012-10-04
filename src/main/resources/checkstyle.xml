@@ -185,7 +185,10 @@
 		
 		<!-- <module name="ReturnCount"/> -->
 		
-		<module name="IllegalType"/>
+		<module name="IllegalType">
+			<!-- allow Abstract* types -->
+			<property name="format" value="^$"/>
+		</module>
 		
 		<module name="DeclarationOrder"/>
 		
