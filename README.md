@@ -1,4 +1,4 @@
-hobsoft-build
+Hobsoft Build
 =============
 
 Build resources for Hobsoft projects.
