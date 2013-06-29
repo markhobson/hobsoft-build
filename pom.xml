@@ -19,7 +19,7 @@
 	<groupId>org.hobsoft</groupId>
 	<artifactId>hobsoft-build</artifactId>
 	<packaging>jar</packaging>
-	<version>0.1.2</version>
+	<version>0.1.3-SNAPSHOT</version>
 	
 	<name>Hobsoft Build</name>
 	<description>Build resources for Hobsoft projects.</description>
@@ -53,7 +53,7 @@
 	<scm>
 		<connection>scm:git:git@github.com:markhobson/hobsoft-build.git</connection>
 		<developerConnection>scm:git:git@github.com:markhobson/hobsoft-build.git</developerConnection>
-		<tag>0.1.2</tag>
+		<tag>HEAD</tag>
 		<url>https://github.com/markhobson/hobsoft-build</url>
 	</scm>
 	
