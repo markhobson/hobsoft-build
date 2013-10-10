@@ -10,7 +10,7 @@ file_export_version=3.0
 /instance/org.eclipse.egit.ui/decorator_show_dirty_icon=true
 
 /instance/org.eclipse.jdt.ui/content_assist_autoactivation_delay=0
-/instance/org.eclipse.jdt.ui/content_assist_favorite_static_members=org.junit.Assert.*;com.google.common.base.Preconditions.*
+/instance/org.eclipse.jdt.ui/content_assist_favorite_static_members=com.google.common.base.Preconditions.*;org.junit.Assert.*;org.mockito.Mockito.*
 /instance/org.eclipse.jdt.ui/editor_folding_default_headers=false
 /instance/org.eclipse.jdt.ui/java_bracket=64,128,128
 /instance/org.eclipse.jdt.ui/java_comment_task_tag=0,128,0
