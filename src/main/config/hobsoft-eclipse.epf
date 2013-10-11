@@ -63,6 +63,15 @@ file_export_version=3.0
 /instance/org.eclipse.jdt.ui/semanticHighlighting.typeParameter.enabled=true
 /instance/org.eclipse.jdt.ui/sourceHoverBackgroundColor=255,255,225
 
+/instance/org.eclipse.jst.jsp.ui/commentBorder=\#008000 | null | false | false | false | false
+/instance/org.eclipse.jst.jsp.ui/commentText=\#008000 | null | false | false | false | false
+/instance/org.eclipse.jst.jsp.ui/SCRIPT_AREA_BORDER=\#0000ff | null | false | false | false | false
+/instance/org.eclipse.jst.jsp.ui/tagAttributeEquals=\#408080 | null | false | false | false | false
+/instance/org.eclipse.jst.jsp.ui/tagAttributeName=\#ff0000 | null | false | false | false | false
+/instance/org.eclipse.jst.jsp.ui/tagAttributeValue=\#ff00ff | null | false | false | false | false
+/instance/org.eclipse.jst.jsp.ui/tagBorder=\#0000ff | null | false | false | false | false
+/instance/org.eclipse.jst.jsp.ui/tagName=\#0000ff | null | false | false | false | false
+
 /instance/org.eclipse.m2e.core/eclipse.m2.defaultPomEditorPage=true
 /instance/org.eclipse.m2e.core/eclipse.m2.downloadJavadoc=true
 /instance/org.eclipse.m2e.core/eclipse.m2.downloadSources=true
@@ -76,6 +85,20 @@ file_export_version=3.0
 /instance/org.eclipse.ui.editors/quickdiff.defaultProvider=org.eclipse.egit.ui.internal.decorators.GitQuickDiffProvider
 /instance/org.eclipse.ui.ide/EXIT_PROMPT_ON_CLOSE_LAST_WINDOW=false
 /instance/org.eclipse.ui.workbench/OPEN_ON_SINGLE_CLICK=true
+
+/instance/org.eclipse.wst.html.ui/commentBorder=\#008000 | null | false | false | false | false
+/instance/org.eclipse.wst.html.ui/commentText=\#008000 | null | false | false | false | false
+/instance/org.eclipse.wst.html.ui/declBoder=\#0000ff | null | false | false | false | false
+/instance/org.eclipse.wst.html.ui/doctypeExternalId=\#0000ff | null | false | false | false | false
+/instance/org.eclipse.wst.html.ui/doctypeExternalPubref=\#0000ff | null | false | false | false | false
+/instance/org.eclipse.wst.html.ui/doctypeExtrenalSysref=\#ff00ff | null | false | false | false | false
+/instance/org.eclipse.wst.html.ui/doctypeName=\#0000ff | null | false | false | false | false
+/instance/org.eclipse.wst.html.ui/entityReference=\#408080 | null | false | false | false | false
+/instance/org.eclipse.wst.html.ui/tagAttributeEquals=\#408080 | null | false | false | false | false
+/instance/org.eclipse.wst.html.ui/tagAttributeName=\#ff0000 | null | false | false | false | false
+/instance/org.eclipse.wst.html.ui/tagAttributeValue=\#ff00ff | null | false | false | false | false
+/instance/org.eclipse.wst.html.ui/tagBorder=\#0000ff | null | false | false | false | false
+/instance/org.eclipse.wst.html.ui/tagName=\#0000ff | null | false | false | false | false
 
 /instance/org.eclipse.wst.xml.ui/cdataBorder=\#408080 | null | false | false | false | false
 /instance/org.eclipse.wst.xml.ui/commentBorder=\#008000 | null | false | false | false | false
