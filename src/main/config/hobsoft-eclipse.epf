@@ -102,6 +102,7 @@ file_export_version=3.0
 /instance/org.eclipse.ui.editors/printMarginColumn=120
 /instance/org.eclipse.ui.editors/quickdiff.defaultProvider=org.eclipse.egit.ui.internal.decorators.GitQuickDiffProvider
 /instance/org.eclipse.ui.ide/EXIT_PROMPT_ON_CLOSE_LAST_WINDOW=false
+/instance/org.eclipse.ui.workbench/ENABLED_DECORATORS=org.eclipse.jdt.ui.interface.decorator\:true
 /instance/org.eclipse.ui.workbench/OPEN_ON_SINGLE_CLICK=true
 
 /instance/org.eclipse.wst.html.ui/commentBorder=\#008000 | null | false | false | false | false
