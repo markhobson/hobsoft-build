@@ -71,6 +71,7 @@ file_export_version=3.0
 /instance/org.eclipse.jdt.ui/semanticHighlighting.parameterVariable.enabled=true
 /instance/org.eclipse.jdt.ui/semanticHighlighting.staticField.enabled=false
 /instance/org.eclipse.jdt.ui/semanticHighlighting.staticField.italic=false
+/instance/org.eclipse.jdt.ui/semanticHighlighting.staticFinalField.enabled=false
 /instance/org.eclipse.jdt.ui/semanticHighlighting.staticMethodInvocation.enabled=false
 /instance/org.eclipse.jdt.ui/semanticHighlighting.staticMethodInvocation.italic=false
 /instance/org.eclipse.jdt.ui/semanticHighlighting.typeArgument.color=255,0,0
