@@ -97,6 +97,7 @@ file_export_version=3.0
 /instance/org.eclipse.ui.editors/additionIndicationInOverviewRuler=true
 /instance/org.eclipse.ui.editors/changeIndicationInOverviewRuler=true
 /instance/org.eclipse.ui.editors/deletionIndicationInOverviewRuler=true
+/instance/org.eclipse.ui.editors/lineNumberRuler=false
 /instance/org.eclipse.ui.editors/printMargin=true
 /instance/org.eclipse.ui.editors/printMarginColor=240,240,240
 /instance/org.eclipse.ui.editors/printMarginColumn=120
