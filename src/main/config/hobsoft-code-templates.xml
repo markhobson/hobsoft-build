@@ -45,8 +45,6 @@
  		context="typecomment_context" description="Comment for created types"
  		autoinsert="false" deleted="false" enabled="true">/**
  * 
- * 
- * @author ${user}
  */</template>
  
  	<template id="org.eclipse.jdt.ui.text.codetemplates.fieldcomment" name="fieldcomment"
