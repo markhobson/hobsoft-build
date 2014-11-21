@@ -105,6 +105,7 @@ file_export_version=3.0
 /instance/org.eclipse.ui.ide/EXIT_PROMPT_ON_CLOSE_LAST_WINDOW=false
 /instance/org.eclipse.ui.workbench/ENABLED_DECORATORS=org.eclipse.jdt.ui.interface.decorator\:true
 /instance/org.eclipse.ui.workbench/OPEN_ON_SINGLE_CLICK=true
+/instance/org.eclipse.ui.workbench/org.eclipse.ui.commands=<?xml version\="1.0" encoding\="UTF-8"?>\n<org.eclipse.ui.commands>\n<keyBinding commandId\="org.eclipse.jdt.ui.edit.text.java.introduce.parameter" contextId\="org.eclipse.ui.contexts.window" keyConfigurationId\="org.eclipse.ui.defaultAcceleratorConfiguration" keySequence\="ALT+SHIFT+P"/>\n</org.eclipse.ui.commands>
 
 /instance/org.eclipse.wst.html.ui/commentBorder=\#008000 | null | false | false | false | false
 /instance/org.eclipse.wst.html.ui/commentText=\#008000 | null | false | false | false | false
