@@ -9,12 +9,20 @@
 
 <module name="Checker">
 
+	<!-- Filters -->
+
+	<!-- <module name="SeverityMatchFilter"/> -->
+	
+	<!-- <module name="SuppressionFilter"/> -->
+	
 	<module name="SuppressionCommentFilter"/>
 	
 	<module name="SuppressWithNearbyCommentFilter">
 		<property name="checkFormat" value="$1"/>
 		<property name="influenceFormat" value="1"/>
 	</module>
+	
+	<!-- <module name="SuppressWarningsFilter"/> -->
 
 	<!-- Duplicate Code -->
 	
@@ -41,6 +49,8 @@
 	</module>
 	
 	<module name="Translation"/>
+	
+	<!-- <module name="UniqueProperties"/> -->
 	
 	<!-- Regexp -->
 	
@@ -90,11 +100,15 @@
 				ENUM_CONSTANT_DEF, METHOD_DEF, CTOR_DEF"/>
 		</module>
 		
+		<!-- <module name="SuppressWarningsHolder"/> -->
+		
 		<!-- Block Checks -->
 
 		<module name="EmptyBlock">
 			<property name="option" value="text"/>
 		</module>
+		
+		<!-- <module name="EmptyCatchBlock"/> -->
 		
 		<module name="LeftCurly">
 			<property name="option" value="nl"/>
@@ -125,6 +139,8 @@
 		<!-- <module name="ThrowsCount"/> -->
 		
 		<!-- <module name="InnerTypeLast"/> -->
+		
+		<!-- <module name="OneTopLevelClass"/> -->
 		
 		<!-- Coding -->
 		
@@ -158,8 +174,6 @@
 		
 		<module name="ModifiedControlVariable"/>
 		
-		<module name="RedundantThrows"/>
-		
 		<module name="SimplifyBooleanExpression"/>
 		
 		<module name="SimplifyBooleanReturn"/>
@@ -185,8 +199,6 @@
 		<module name="IllegalThrows"/>
 		
 		<module name="PackageDeclaration"/>
-		
-		<module name="JUnitTestCase"/>
 		
 		<!-- <module name="ReturnCount"/> -->
 		
@@ -217,6 +229,10 @@
 		
 		<module name="OneStatementPerLine"/>
 		
+		<!-- <module name="VariableDeclarationUsageDistance"/> -->
+		
+		<!-- <module name="OverloadMethodsDeclarationOrder"/> -->
+		
 		<!-- Imports -->
 
 		<module name="AvoidStarImport"/>
@@ -237,8 +253,12 @@
 		
 		<!-- <module name="ImportControl"/> -->
 		
+		<!-- <module name="CustomImportOrder"/> -->
+		
 	    <!-- Javadoc Comments -->
 
+		<!-- <module name="JavadocPackage"/> -->
+		
 		<module name="JavadocType">
 			<property name="scope" value="public"/>
 		</module>
@@ -256,6 +276,18 @@
 		</module>
 		
 		<!-- <module name="WriteTag"/> -->
+		
+		<!-- <module name="NonEmptyAtclauseDescription"/> -->
+		
+		<!-- <module name="JavadocTagContinuationIndentation"/> -->
+		
+		<!-- <module name="SummaryJavadoc"/> -->
+		
+		<!-- <module name="AtclauseOrder"/> -->
+		
+		<!-- <module name="JavadocParagraph"/> -->
+		
+		<!-- <module name="SingleLineJavadoc"/> -->
 		
 		<!-- Metrics -->
 		
@@ -293,6 +325,8 @@
 		
 		<module name="OuterTypeFilename"/>
 		
+		<!-- <module name="AvoidEscapedUnicodeCharacters"/> -->
+		
 		<!-- Modifiers -->
 		
 		<module name="ModifierOrder"/>
@@ -317,6 +351,8 @@
 		
 		<module name="MethodTypeParameterName"/>
 		
+		<!-- <module name="InterfaceTypeParameterName"/> -->
+		
 		<module name="PackageName"/>
 		
 		<module name="ParameterName"/>
@@ -324,6 +360,8 @@
 		<module name="StaticVariableName"/>
 		
 		<module name="TypeName"/>
+		
+		<!-- <module name="AbbreviationAsWordInName"/> -->
 		
 		<!-- Regexp -->
 		
@@ -417,6 +455,12 @@
 				NOT_EQUAL, PLUS, PLUS_ASSIGN, QUESTION, SL, SLIST, SL_ASSIGN, SR, SR_ASSIGN, STAR, STAR_ASSIGN,
 				TYPE_EXTENSION_AND"/>
 		</module>
+		
+		<!-- <module name="NoLineWrap"/> -->
+		
+		<!-- <module name="EmptyLineSeparator"/> -->
+		
+		<!-- <module name="SeparatorWrap"/> -->
 		
 	</module>
 	
