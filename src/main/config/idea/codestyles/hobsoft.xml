@@ -50,6 +50,11 @@
     <option name="XML_ALIGN_ATTRIBUTES" value="false" />
     <option name="XML_LEGACY_SETTINGS_IMPORTED" value="true" />
   </XML>
+  <codeStyleSettings language="CSS">
+    <indentOptions>
+      <option name="USE_TAB_CHARACTER" value="true" />
+    </indentOptions>
+  </codeStyleSettings>
   <codeStyleSettings language="Groovy">
     <indentOptions>
       <option name="CONTINUATION_INDENT_SIZE" value="4" />
