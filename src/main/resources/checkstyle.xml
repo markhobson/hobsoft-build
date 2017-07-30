@@ -15,13 +15,6 @@
 	
 	<!-- <module name="SuppressionFilter"/> -->
 	
-	<module name="SuppressionCommentFilter"/>
-	
-	<module name="SuppressWithNearbyCommentFilter">
-		<property name="checkFormat" value="$1"/>
-		<property name="influenceFormat" value="1"/>
-	</module>
-	
 	<!-- <module name="SuppressWarningsFilter"/> -->
 
 	<!-- Duplicate Code -->
@@ -84,6 +77,15 @@
 		
 		<module name="FileContentsHolder"/>
 		
+		<!-- Filters -->
+
+		<module name="SuppressionCommentFilter"/>
+
+		<module name="SuppressWithNearbyCommentFilter">
+			<property name="checkFormat" value="$1"/>
+			<property name="influenceFormat" value="1"/>
+		</module>
+
 		<!-- Annotations -->
 
 		<module name="AnnotationUseStyle"/>
