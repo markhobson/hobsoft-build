@@ -19,7 +19,7 @@
 	<groupId>org.hobsoft</groupId>
 	<artifactId>hobsoft-build</artifactId>
 	<packaging>jar</packaging>
-	<version>0.2.1-SNAPSHOT</version>
+	<version>0.3.0-SNAPSHOT</version>
 	
 	<name>Hobsoft Build</name>
 	<description>Build resources for Hobsoft projects.</description>
