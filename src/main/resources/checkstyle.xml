@@ -75,8 +75,6 @@
 	<module name="TreeWalker">
 		<property name="tabWidth" value="4"/>
 		
-		<module name="FileContentsHolder"/>
-		
 		<!-- Filters -->
 
 		<module name="SuppressionCommentFilter"/>
@@ -206,7 +204,7 @@
 		
 		<module name="IllegalType">
 			<!-- allow Abstract* types -->
-			<property name="format" value="^$"/>
+			<property name="illegalAbstractClassNameFormat" value="^$"/>
 		</module>
 		
 		<module name="DeclarationOrder"/>
@@ -251,6 +249,8 @@
 			<property name="option" value="bottom"/>
 			<property name="groups" value="java, javax, org, com"/>
 			<property name="separated" value="true"/>
+			<property name="staticGroups" value="java, javax, org, com"/>
+			<property name="separatedStaticGroups" value="true"/>
 		</module>
 		
 		<!-- <module name="ImportControl"/> -->
