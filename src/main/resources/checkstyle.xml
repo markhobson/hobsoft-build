@@ -8,6 +8,7 @@
 <!-- Hobsoft Checkstyle configuration -->
 
 <module name="Checker">
+	<property name="tabWidth" value="4"/>
 
 	<!-- Filters -->
 
@@ -68,12 +69,15 @@
 	
 	<module name="FileLength"/>
 	
+	<module name="LineLength">
+		<property name="max" value="120"/>
+	</module>
+	
 	<!-- Whitespace -->
 	
 	<!-- <module name="FileTabCharacter"/> -->
 	
 	<module name="TreeWalker">
-		<property name="tabWidth" value="4"/>
 		
 		<!-- Filters -->
 
@@ -403,10 +407,6 @@
 		<!-- Size Violations -->
 		
 		<module name="ExecutableStatementCount"/>
-		
-		<module name="LineLength">
-			<property name="max" value="120"/>
-		</module>
 		
 		<module name="MethodLength"/>
 		
