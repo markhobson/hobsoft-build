@@ -19,3 +19,5 @@ To release a new version:
 ## License
 
 * [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0.html)
+
+![Build Status](https://github.com/markhobson/hobsoft-build/actions/workflows/ci.yml/badge.svg)
