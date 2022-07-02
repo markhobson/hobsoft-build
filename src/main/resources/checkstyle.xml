@@ -316,7 +316,9 @@
 		
 		<!-- <module name="JavadocTagContinuationIndentation"/> -->
 		
-		<module name="JavadocType"/>
+		<module name="JavadocType">
+			<property name="allowMissingParamTags" value="true"/>
+		</module>
 		
 		<!-- <module name="JavadocVariable">
 			<property name="scope" value="public"/>
