@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
-
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>org.hobsoft</groupId>
 	<artifactId>hobsoft-build</artifactId>
@@ -56,11 +57,11 @@
 	</properties>
 	
 	<build>
-	
-		<pluginManagement>
 		
-			<plugins>
+		<pluginManagement>
 			
+			<plugins>
+				
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-clean-plugin</artifactId>
@@ -153,13 +154,13 @@
 						<autoReleaseAfterClose>true</autoReleaseAfterClose>
 					</configuration>
 				</plugin>
-				
-			</plugins>
 			
+			</plugins>
+		
 		</pluginManagement>
 		
 		<plugins>
-		
+			
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-enforcer-plugin</artifactId>
@@ -185,13 +186,13 @@
 				<artifactId>nexus-staging-maven-plugin</artifactId>
 				<extensions>true</extensions>
 			</plugin>
-			
-		</plugins>
 		
+		</plugins>
+	
 	</build>
 	
 	<profiles>
-	
+		
 		<profile>
 			<id>release</id>
 			<build>
@@ -211,11 +212,11 @@
 				</plugins>
 			</build>
 		</profile>
-		
+	
 	</profiles>
 	
 	<distributionManagement>
-	
+		
 		<repository>
 			<id>sonatype-nexus-staging</id>
 			<name>Sonatype Nexus Staging Repository</name>
@@ -227,7 +228,7 @@
 			<name>Sonatype Nexus Snapshot Repository</name>
 			<url>https://oss.sonatype.org/content/repositories/snapshots/</url>
 		</snapshotRepository>
-		
+	
 	</distributionManagement>
 
 </project>
