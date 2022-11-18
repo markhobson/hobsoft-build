@@ -325,7 +325,7 @@
 
 		<!-- <module name="MissingJavadocPackage"/> -->
 
-		<module name="MissingJavadocType"/>
+		<!-- <module name="MissingJavadocType"/> -->
 
 		<!-- <module name="NonEmptyAtclauseDescription"/> -->
 
